@@ -2,8 +2,12 @@ import Hello from './hello.jsx'
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-ReactDOM.render(
-    <Hello/>,
-    document.body
-)
+document.getElementById('trigger').onclick = function () {
+    ReactDOM.render(
+        <Hello/>,
+        window.parent.document.getElementById('main')
+    )
+}
+
+
 

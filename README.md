@@ -1,11 +1,11 @@
-JavaScript React Base Demo (Latest)
-===================================
+JavaScript React Inject Component to Parent Demo
+================================================
 
-Always update with latest versions and technologies.
+在iframe引用的内页中，如何将某个react component插入到外层页面中。
 
 ```
 npm install
-npm run dev
+npm run demo
 ```
 
-Then visit <http://localhost:8080/>.
+![demo](./images/demo.jpg)

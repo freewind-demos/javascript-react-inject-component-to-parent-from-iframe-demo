@@ -1,5 +1,3 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-
 module.exports = {
     mode: 'development',
     entry: './entry.jsx',
@@ -21,8 +19,5 @@ module.exports = {
                 }
             }
         }]
-    },
-    plugins: [
-        new HtmlWebpackPlugin()
-    ]
+    }
 }
